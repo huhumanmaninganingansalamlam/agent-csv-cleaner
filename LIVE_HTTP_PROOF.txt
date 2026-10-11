@@ -1,0 +1,103 @@
+PASS: live HTTP health, cleaned JSON, USD 0.001 simulation, free idempotent retry, usage aggregate
+{
+  "first_response": {
+    "columns": [
+      "order_id",
+      "name"
+    ],
+    "rows": [
+      {
+        "order_id": "001",
+        "name": "Demo"
+      }
+    ],
+    "audit": {
+      "version": "1.0.0",
+      "headers": [
+        "Order ID",
+        "Name"
+      ],
+      "columns": 2,
+      "valid_records": 2,
+      "exact_duplicate_records": 1,
+      "duplicate_headers": [],
+      "blank_header_positions": [],
+      "malformed_records_skipped": 0,
+      "malformed_details": [],
+      "formula_like_cells": 0,
+      "detail_limit": 100,
+      "record_numbering": "Logical CSV records; header is record 1. Quoted multiline fields count as one record.",
+      "header_mapping": [
+        {
+          "position": 1,
+          "from": "Order ID",
+          "to": "order_id"
+        },
+        {
+          "position": 2,
+          "from": "Name",
+          "to": "name"
+        }
+      ],
+      "output_headers": [
+        "order_id",
+        "name"
+      ],
+      "output_records": 1,
+      "duplicate_records_removed": 1,
+      "removed_record_numbers": [
+        3
+      ],
+      "key_conflict_groups": 0,
+      "key_conflict_records": [],
+      "key_conflict_policy": "Keep differing rows; only identical full rows are removed.",
+      "validation_issue_count": 0,
+      "validation_issues": [],
+      "validation_policy": "Report only; invalid values are retained unchanged.",
+      "cells_trimmed": 0,
+      "spreadsheet_cells_prefixed": 0,
+      "dry_run": true,
+      "settings": {
+        "encoding": "utf-8-sig",
+        "delimiter": ",",
+        "output_encoding": "utf-8-sig",
+        "output_delimiter": ",",
+        "normalize_headers": true,
+        "trim": false,
+        "dedupe": "exact",
+        "keys": [],
+        "required": [],
+        "numeric": [],
+        "malformed": "error",
+        "spreadsheet_safe": false
+      }
+    },
+    "billing": {
+      "mode": "simulation",
+      "currency": "USD",
+      "unit_price_micro_usd": 1000,
+      "charged_micro_usd": 1000,
+      "charged_usd": "0.001000",
+      "idempotent_replay": false
+    }
+  },
+  "replay_billing": {
+    "mode": "simulation",
+    "currency": "USD",
+    "unit_price_micro_usd": 1000,
+    "charged_micro_usd": 0,
+    "charged_usd": "0.000000",
+    "idempotent_replay": true
+  },
+  "usage": {
+    "successful_responses": 2,
+    "idempotent_replays": 1,
+    "billable_requests": 1,
+    "simulated_total_micro_usd": 1000,
+    "simulated_total_usd": "0.001000",
+    "unit_price_micro_usd": 1000,
+    "currency": "USD",
+    "billing_mode": "simulation",
+    "failed_requests_billed": 0
+  }
+}

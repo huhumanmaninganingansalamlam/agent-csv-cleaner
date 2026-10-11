@@ -1,0 +1,76 @@
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_bom_quotes_multiline (test_api.ApiTests.test_bom_quotes_multiline) ... ok
+test_busy_429_free (test_api.ApiTests.test_busy_429_free) ... ok
+test_changed_options_conflict (test_api.ApiTests.test_changed_options_conflict) ... ok
+test_clean_json_string_ids_and_charge (test_api.ApiTests.test_clean_json_string_ids_and_charge) ... ok
+test_columns_limit (test_api.ApiTests.test_columns_limit) ... ok
+test_cp949 (test_api.ApiTests.test_cp949) ... ok
+test_duplicate_headers_normalized (test_api.ApiTests.test_duplicate_headers_normalized) ... ok
+test_duplicate_headers_without_normalization (test_api.ApiTests.test_duplicate_headers_without_normalization) ... ok
+test_encoding_error_422 (test_api.ApiTests.test_encoding_error_422) ... ok
+test_file_limit (test_api.ApiTests.test_file_limit) ... ok
+test_formula_string_never_evaluated (test_api.ApiTests.test_formula_string_never_evaluated) ... ok
+test_health (test_api.ApiTests.test_health) ... ok
+test_idempotency_survives_restart (test_api.ApiTests.test_idempotency_survives_restart) ... ok
+test_invalid_options (test_api.ApiTests.test_invalid_options) ... ok
+test_key_conflict_request_409 (test_api.ApiTests.test_key_conflict_request_409) ... ok
+test_key_conflicting_rows_retained (test_api.ApiTests.test_key_conflicting_rows_retained) ... ok
+test_key_limit (test_api.ApiTests.test_key_limit) ... ok
+test_large_ledger_total_exact_decimal (test_api.ApiTests.test_large_ledger_total_exact_decimal) ... ok
+test_ledger_concurrent_retry (test_api.ApiTests.test_ledger_concurrent_retry) ... ok
+test_ledger_failure_503 (test_api.ApiTests.test_ledger_failure_503) ... ok
+test_logs_exclude_data (test_api.ApiTests.test_logs_exclude_data) ... ok
+test_malformed_free (test_api.ApiTests.test_malformed_free) ... ok
+test_missing_file_free (test_api.ApiTests.test_missing_file_free) ... ok
+test_no_dedupe (test_api.ApiTests.test_no_dedupe) ... ok
+test_replay_no_double_billing (test_api.ApiTests.test_replay_no_double_billing) ... ok
+test_request_limit (test_api.ApiTests.test_request_limit) ... ok
+test_rows_limit (test_api.ApiTests.test_rows_limit) ... ok
+test_unknown_key (test_api.ApiTests.test_unknown_key) ... ok
+test_atomic_publish_conflict (test_core.CleanupTests.test_atomic_publish_conflict) ... ok
+test_blank_header_refused (test_core.CleanupTests.test_blank_header_refused) ... ok
+test_broken_quote_always_aborts (test_core.CleanupTests.test_broken_quote_always_aborts) ... ok
+test_broken_symlink_refused (test_core.CleanupTests.test_broken_symlink_refused) ... ok
+test_composite_keys_case_sensitive (test_core.CleanupTests.test_composite_keys_case_sensitive) ... ok
+test_cp949 (test_core.CleanupTests.test_cp949) ... ok
+test_delimiter_conversion (test_core.CleanupTests.test_delimiter_conversion) ... ok
+test_detail_limit (test_core.CleanupTests.test_detail_limit) ... ok
+test_dry_run_no_writes (test_core.CleanupTests.test_dry_run_no_writes) ... ok
+test_duplicate_headers_refused (test_core.CleanupTests.test_duplicate_headers_refused) ... ok
+test_empty_input (test_core.CleanupTests.test_empty_input) ... ok
+test_exact_dedupe_first (test_core.CleanupTests.test_exact_dedupe_first) ... ok
+test_existing_output (test_core.CleanupTests.test_existing_output) ... ok
+test_existing_report_blocks_all (test_core.CleanupTests.test_existing_report_blocks_all) ... ok
+test_formula_default_preserved (test_core.CleanupTests.test_formula_default_preserved) ... ok
+test_formula_safe_opt_in (test_core.CleanupTests.test_formula_safe_opt_in) ... ok
+test_header_only (test_core.CleanupTests.test_header_only) ... ok
+test_inspect_no_row_values (test_core.CleanupTests.test_inspect_no_row_values) ... ok
+test_invalid_encoding_name (test_core.CleanupTests.test_invalid_encoding_name) ... ok
+test_key_conflicts_retained (test_core.CleanupTests.test_key_conflicts_retained) ... ok
+test_keys_required (test_core.CleanupTests.test_keys_required) ... ok
+test_keys_without_mode_rejected (test_core.CleanupTests.test_keys_without_mode_rejected) ... ok
+test_malformed_default_aborts (test_core.CleanupTests.test_malformed_default_aborts) ... ok
+test_malformed_skip (test_core.CleanupTests.test_malformed_skip) ... ok
+test_missing_parent (test_core.CleanupTests.test_missing_parent) ... ok
+test_never_overwrite_input (test_core.CleanupTests.test_never_overwrite_input) ... ok
+test_normalize_collisions (test_core.CleanupTests.test_normalize_collisions) ... ok
+test_null_character (test_core.CleanupTests.test_null_character) ... ok
+test_output_encoding_failure_no_files (test_core.CleanupTests.test_output_encoding_failure_no_files) ... ok
+test_output_report_same_path (test_core.CleanupTests.test_output_report_same_path) ... ok
+test_quotes_commas_multiline (test_core.CleanupTests.test_quotes_commas_multiline) ... ok
+test_size_limit (test_core.CleanupTests.test_size_limit) ... ok
+test_symlink_input_alias (test_core.CleanupTests.test_symlink_input_alias) ... ok
+test_trailing_junk_after_quote (test_core.CleanupTests.test_trailing_junk_after_quote) ... ok
+test_trim_before_dedupe (test_core.CleanupTests.test_trim_before_dedupe) ... ok
+test_trim_is_opt_in (test_core.CleanupTests.test_trim_is_opt_in) ... ok
+test_unicode_bom (test_core.CleanupTests.test_unicode_bom) ... ok
+test_unknown_column (test_core.CleanupTests.test_unknown_column) ... ok
+test_utf16 (test_core.CleanupTests.test_utf16) ... ok
+test_validation_retains_values (test_core.CleanupTests.test_validation_retains_values) ... ok
+test_wrong_encoding (test_core.CleanupTests.test_wrong_encoding) ... ok
+
+----------------------------------------------------------------------
+Ran 69 tests in 0.455s
+
+OK

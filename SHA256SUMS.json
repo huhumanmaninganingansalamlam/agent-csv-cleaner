@@ -1,0 +1,18 @@
+{
+  "app.py": "130b6df5cc844e3af12c7dd96307acef50b1387828b367a8510d68cfffb9c1b0",
+  "csv_cleanup.py": "318c00cbd6181d1081c6768d62febe50bd5e1dd6617184593259672636d054c0",
+  "test_api.py": "7307abc275dbfb24855d280690f9d9044d378a15eb88b52a538bfb4be4a4cf65",
+  "test_core.py": "2ac01584a944212b84ba7dff7ac1d3af877da61a02a170cdb10af72cf8b314d9",
+  "Dockerfile": "3bb20ee29b02dd02df70be3da1fda77842817884d6b74483c90581dc3b3a4cca",
+  "docker-compose.yml": "95a60490ab21d05ccc7be9af14eb8ec63a90542fc0681fcfd51a0d842e5a5ff7",
+  ".dockerignore": "cf52278ce98c7487152ef9b68f6a9cbbddaded36107e3ca779a01a422946f192",
+  "requirements.txt": "1f1d2e38251f4b057c92e8b728601e5dbf99d7c6f429296a3f2ae84b22d09815",
+  "requirements-dev.txt": "934fbb549ab3209320a68f549631f92ffa7dcd1372d15620c148eb5f55bd7735",
+  "README.md": "65f7f7bb977ac8285a691be31c0fb69118cc3493ddc714aa9008b7e407f2a59c",
+  "README_A2A.md": "d16b4ec54116a32038c1c05fa31b7da607fafa90edd848353e7ad340aba9d411",
+  "smoke_test.sh": "a2e9f36dd3f1e68371e3771fba3b54d0810a5d135038999a2b26ba094525974e",
+  "TEST_RESULTS.txt": "19bd5d090b7e1894e0b1b6be7d62c5bac0cd032d60706290bfcf50ede68bed40",
+  "LIVE_HTTP_PROOF.txt": "e7b837a177091730fecfa0e03ef541411a294326be68656a8db09f5e5b16cb69",
+  "examples/orders_messy.csv": "8a5c994b19c3baac1193c262f4622fc28660e83b83f976334f8345bc468f6baa",
+  ".github/workflows/ci.yml": "d7bc434bdde6fae142ee99ea20c914389364be5b1244757e15c6af6c28dffe90"
+}
