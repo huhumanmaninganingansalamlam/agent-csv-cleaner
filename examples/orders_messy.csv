@@ -1,0 +1,9 @@
+﻿Order ID,Customer,Email,Amount,Note
+0001, Demo Kim ,demo-kim@example.invalid,12.50,Synthetic example only
+0001, Demo Kim ,demo-kim@example.invalid,12.50,Synthetic example only
+0002,Demo Lee,,oops,Missing email and invalid amount
+0003,테스트 고객,demo-ko@example.invalid,25,"Quoted comma, preserved"
+0003,테스트 고객,demo-ko@example.invalid,30,Same ID; conflicting amount retained
+0004,Demo Park,demo-park@example.invalid,7.5,"Line one
+Line two"
+0005,Demo Cho,demo-cho@example.invalid,10,=1+1
